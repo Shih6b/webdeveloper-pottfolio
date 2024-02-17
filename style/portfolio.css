@@ -16,19 +16,18 @@
     line-height: 27px;
     padding: 15px 35px;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .web-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
 nav>ul {
     display: flex;
     align-items: center;
@@ -42,4 +41,15 @@ nav li {
 nav a {
     text-decoration: none;
     color: rgb(71, 71, 71);
+}
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 400px;
 }
