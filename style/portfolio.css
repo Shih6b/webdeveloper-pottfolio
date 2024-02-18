@@ -19,7 +19,7 @@
 
 .section-title {
     color: #181818;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 400;
     text-align: center;
 }
@@ -164,7 +164,8 @@ main section {
     gap: 50px;
 }
 
-.resume-item-institute, .resume-item-description{
+.resume-item-institute,
+.resume-item-description {
     color: rgb(117, 117, 117);
 }
 
@@ -174,14 +175,35 @@ main section {
     font-weight: 700;
     text-align: left;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer section */
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background: rgb(255, 248, 243);
     padding: 130px 230px;
     margin-top: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+.social-link a{
+    margin-right: 25px;
+}
+
+.contact input[type=text], .contact input[type=email], 
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 5px;
+    background-color: #FFF;
 }
