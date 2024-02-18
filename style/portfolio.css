@@ -164,8 +164,7 @@ main section {
     gap: 50px;
 }
 
-.resume-item-description,
-.resume-item-description {
+.resume-item-institute, .resume-item-description{
     color: rgb(117, 117, 117);
 }
 
@@ -174,4 +173,8 @@ main section {
     font-size: 25px;
     font-weight: 700;
     text-align: left;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
